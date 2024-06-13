@@ -25,8 +25,18 @@ function makeGrid()
 }
 makeGrid();
 
+//function, promptUpdateGrid, that prompts user for new gridSize when UpdateBtn is clicked => newGridSize
+//function, updateGrid, that changes gridSize to newGridSize
 
-function updateGrid () {
+
+
+const updateBtn = document.querySelector("#updateBtn");
+updateBtn.addEventListener("click", () => 
+{
+    let newGridSize = prompt ("Enter a number between 1-100:");
+    console.log(newGridSize)
     
-}
+})
+    
+
 
