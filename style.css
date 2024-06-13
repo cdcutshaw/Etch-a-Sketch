@@ -5,9 +5,8 @@ body {
   flex-direction: column;
   background-color: darkslategray;
   align-items: center;
-  
-
 }
+
 
 #container {
   width: 700px;
@@ -15,27 +14,26 @@ body {
   border: 1px solid black;
   background-color:cornsilk;
   display: flex;
-  flex-wrap: wrap;
- 
-
 }
 
 .rowItem, .colItem {
   border: 1px solid black;
-  display: flex;
-  width: 41.75px;
-
-
+  width: 43.75px;
+  box-sizing: border-box;
 }
 
-.rowItem {
-  display: flex;
-  flex-direction: column;
-  
-}
 
 .colItem {
+  height: 43.75px;
+}
 
-  height: 41.75px;
+#updateBtn {
+  padding: 10px;
+  border: 1px solid black;
+  margin: 0px 30px 30px 30px;
+  background-color: cadetblue;
+  color:cornsilk;
+  font-weight: bold;
+  
 }
 
